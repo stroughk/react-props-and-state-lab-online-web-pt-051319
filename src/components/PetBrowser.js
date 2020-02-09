@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Pet from './Pet';
 
 class PetBrowser extends React.Component {
@@ -11,5 +10,4 @@ class PetBrowser extends React.Component {
     return <div className="ui cards">{petCards}</div>;
   }
 }
-
 export default PetBrowser;
